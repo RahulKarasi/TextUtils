@@ -46,6 +46,7 @@ export default function TextForm(props) {
                 <button className="btn btn-primary mx-3" onClick={handleDownClick} >Convert to Lowercase</button>
                 <button className="btn btn-primary " onClick={handleEmail} >Extract email</button>
                 <button className="btn btn-primary mx-3" onClick={handleClear} >Clear</button>
+                <button className="btn btn-primary mx-3" >Teting</button>
             </div>
             <div className="container my-3">
                 <h2>Your text summary</h2>
