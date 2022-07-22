@@ -46,7 +46,6 @@ export default function TextForm(props) {
                 <button className="btn btn-primary mx-3" onClick={handleDownClick} >Convert to Lowercase</button>
                 <button className="btn btn-primary " onClick={handleEmail} >Extract email</button>
                 <button className="btn btn-primary mx-3" onClick={handleClear} >Clear</button>
-                
             </div>
             <div className="container my-3">
                 <h2>Your text summary</h2>
@@ -55,7 +54,6 @@ export default function TextForm(props) {
                 <h2>Preview</h2>
                 <p>{text.length>0?text:"Enter your text to preview"}</p>
             </div>
-            
         </>
     )
 }
