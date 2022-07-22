@@ -3,11 +3,11 @@ import './App.css';
 import About from './components/About';
 import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
-// import {
-//   BrowserRouter as Router,
-//   Routes,
-//   Route,
-// } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
 
 
 
@@ -29,12 +29,12 @@ function App() {
   
   return (
     <>
-      <Navbar title="RK" aboutText="About TextUtils" toggleMode = {toggleMode} />
+      {/* <Navbar title="RK" aboutText="About TextUtils" toggleMode = {toggleMode} />
       <div className="container my-3">
         <TextForm heading="Enter the text to analyze" mode = {mode} />
         <About mode = {mode} />
-      </div>
-      {/* <Router>
+      </div> */}
+      <Router>
       <Navbar title="RK" aboutText="About TextUtils" toggleMode = {toggleMode} />
       <div className="container my-3">
       <Routes>
@@ -42,7 +42,7 @@ function App() {
           <Route path="/about" element={<About mode = {mode} />} />
       </Routes> 
       </div>
-      </Router> */}
+      </Router>
     </>
   );
 }
